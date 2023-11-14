@@ -1,0 +1,75 @@
+body {
+  font-family: "Nunito", sans-serif;
+  padding: 50px 100px;
+  color: #234cad;
+  max-width: 1440px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.contact {
+  background-color: #f2f6ff;
+  padding: 75px;
+  border-radius: 50px;
+}
+
+.contact h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.contact p {
+  margin: 25px auto 35px;
+  max-width: 348px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact .inputan {
+  max-width: 500px;
+  max-height: 65px;
+  padding: 10px 10px 10px 25px;
+  margin: auto;
+  border-radius: 15px;
+
+  font-size: 18px;
+}
+.contact input {
+  padding: 0;
+  width: 100%;
+}
+.icon {
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  background-color: #234cad;
+  border-radius: 15px;
+}
+
+::placeholder {
+  color: #234cad; /* Ganti #your-color dengan kode warna yang diinginkan */
+}
+
+footer {
+  padding-top: 75px;
+}
+footer a {
+  color: #234cad;
+  text-decoration: none;
+}
+
+footer h5 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+footer .container {
+  width: 941px;
+}
+footer .brand {
+  margin-right: 80px;
+}
+/* footer .row .items {
+  padding-left: 90px;
+} */
