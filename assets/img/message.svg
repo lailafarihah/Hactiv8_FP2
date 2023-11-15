@@ -1,0 +1,22 @@
+<svg width="347" height="347" viewBox="0 0 347 347" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Card 7">
+<g id="Shadow" opacity="0.05" filter="url(#filter0_f_11616_384)">
+<rect x="136" y="136" width="75" height="75" rx="20" fill="url(#paint0_linear_11616_384)"/>
+</g>
+<rect id="Background" x="136" y="136" width="75" height="75" rx="20" fill="white"/>
+<g id="Icon">
+<path id="Icon_2" fill-rule="evenodd" clip-rule="evenodd" d="M184.575 160H163.125C160.847 160 159 161.847 159 164.125V177.325C159 179.603 160.847 181.45 163.125 181.45H165.6V187.189C165.6 187.203 165.617 187.21 165.627 187.201L172.2 181.45H184.575C186.853 181.45 188.7 179.603 188.7 177.325V164.125C188.7 161.847 186.853 160 184.575 160Z" stroke="#234CAD" stroke-width="3" stroke-linecap="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_11616_384" x="0.085907" y="0.085907" width="346.828" height="346.828" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="67.957" result="effect1_foregroundBlur_11616_384"/>
+</filter>
+<linearGradient id="paint0_linear_11616_384" x1="192.796" y1="238.448" x2="252.61" y2="151.591" gradientUnits="userSpaceOnUse">
+<stop stop-color="#234CAD"/>
+<stop offset="1" stop-color="#234CAD" stop-opacity="0.5"/>
+</linearGradient>
+</defs>
+</svg>
