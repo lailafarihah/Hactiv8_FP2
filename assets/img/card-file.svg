@@ -1,0 +1,22 @@
+<svg width="347" height="347" viewBox="0 0 347 347" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Card 8">
+<g id="Shadow" opacity="0.05" filter="url(#filter0_f_11616_366)">
+<rect x="136" y="136" width="75" height="75" rx="20" fill="url(#paint0_linear_11616_366)"/>
+</g>
+<rect id="Background" x="136" y="136" width="75" height="75" rx="20" fill="white"/>
+<g id="Icon">
+<path id="Icon_2" fill-rule="evenodd" clip-rule="evenodd" d="M175.061 159.439C174.779 159.158 174.398 159 174 159H166.5C164.015 159 162 161.015 162 163.5V184.5C162 186.985 164.015 189 166.5 189H181.5C183.985 189 186 186.985 186 184.5V171C186 170.602 185.842 170.221 185.561 169.939L175.061 159.439ZM166.5 162C165.672 162 165 162.672 165 163.5V184.5C165 185.328 165.672 186 166.5 186H181.5C182.328 186 183 185.328 183 184.5V172.5H184.5V171V169.5H180.879L175.5 164.121V160.5H174H172.5V162H166.5ZM173.379 162H174V160.5L172.939 161.561L173.379 162ZM173.379 162H172.5V170.25C172.5 171.493 173.507 172.5 174.75 172.5H183V171.621L183.439 172.061L184.5 171H183V171.621L180.879 169.5H175.5V164.121L173.379 162ZM175.5 169.5V170.25C175.5 169.836 175.164 169.5 174.75 169.5H175.5Z" fill="#234CAD"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_11616_366" x="0.085907" y="0.085907" width="346.828" height="346.828" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="67.957" result="effect1_foregroundBlur_11616_366"/>
+</filter>
+<linearGradient id="paint0_linear_11616_366" x1="192.796" y1="238.448" x2="252.61" y2="151.591" gradientUnits="userSpaceOnUse">
+<stop stop-color="#234CAD"/>
+<stop offset="1" stop-color="#234CAD" stop-opacity="0.5"/>
+</linearGradient>
+</defs>
+</svg>
