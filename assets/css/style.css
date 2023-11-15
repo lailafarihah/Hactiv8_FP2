@@ -1,3 +1,296 @@
+
+
+body {
+  font-family: "Nunito", sans-serif;
+  padding: 50px 100px;
+  color: #234cad;
+  max-width: 1440px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.contact {
+  background-color: #f2f6ff;
+  padding: 75px;
+  border-radius: 50px;
+}
+
+.contact h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.contact p {
+  margin: 25px auto 35px;
+  max-width: 348px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact .inputan {
+  max-width: 500px;
+  max-height: 65px;
+  padding: 10px 10px 10px 25px;
+  margin: auto;
+  border-radius: 15px;
+
+  font-size: 18px;
+}
+.contact input {
+  padding: 0;
+  width: 100%;
+}
+.icon {
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  background-color: #234cad;
+  border-radius: 15px;
+}
+
+::placeholder {
+  color: #234cad; /* Ganti #your-color dengan kode warna yang diinginkan */
+}
+
+footer {
+  padding-top: 75px;
+}
+footer a {
+  color: #234cad;
+  text-decoration: none;
+}
+
+footer h5 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+footer .container {
+  width: 941px;
+}
+footer .brand {
+  margin-right: 80px;
+}
+/* footer .row .items {
+  padding-left: 90px;
+} */
+=======
+body{
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+h1{
+    font-size: 50px;
+    color: #234CAD;
+}
+
+h2{
+    color: #234CAD;
+
+}
+
+h3{
+    font-size: 22px;
+    color: #234CAD;
+
+}
+
+h4{
+    font-size: 10px;
+    color: #234CAD;
+}
+
+p{
+    font-size: 16px;
+    color: #234CAD;
+}
+
+li{
+    margin-right: 30px;
+}
+
+
+#login {
+    margin-right: 15px;
+    width: 110px;
+    height: 45px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: white;
+    color: #234CAD;
+    border: 1px solid #234CAD;
+  }
+  
+
+#sign{
+    width: 110px;
+    height: 45px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: #F2F6FF;
+    color: #234CAD;
+    border: 1px solid #F2F6FF;
+}
+    
+.togle{
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #F2F6FF;
+}
+
+.jumbotron{
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 100%;
+    height: 520px;
+    background-color: #F2F6FF;
+}
+
+#kolom1{
+    padding-left: 70px;
+    padding-top: 90px;
+    padding-bottom: 45px;
+}
+
+
+#get{
+    margin-top: 15px;
+    width: 180px;
+    height: 55px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: white;
+    color: #234CAD;
+    border: 1px solid #234CAD;
+
+
+}
+
+.kotak1{
+    padding-top: 12px;
+    padding-left: 20px;
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    border-radius: 20px;
+    background-color: white; 
+}
+
+.tekskotak1
+{
+    margin-top: 9px;
+}
+
+.kotak2{
+    padding-top: 20px;
+    padding-left: 22px;
+    width: 350px;
+    height: 90px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.kotak3{
+    padding-top: 25px;
+    padding-left: 25px;
+    width: 110px;
+    height: 130px;
+    margin-top: -155px;
+    margin-bottom: 25px;
+    margin-left: 435px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.kotak4{
+    padding-top: 20px;
+    padding-left: 22px;
+    width: 250px;
+    height: 140px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.kotak5{
+    padding-top: 20px;
+    padding-left: 22px;
+    width: 350px;
+    height: 90px;
+    margin-top: -165px;
+    margin-bottom: 25px;
+    margin-left: 315px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.kotak6{
+    padding-top: 20px;
+    padding-left: 22px;
+    width: 350px;
+    height: 90px;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.kotak7{
+    padding-top: 20px;
+    padding-left: 22px;
+    width: 350px;
+    height: 90px;
+    margin-top: -165px;
+    margin-left: 415px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.kotak8{
+    padding-top: 14px;
+    padding-left: 18px;
+    width: 70px;
+    height: 70px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 400px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.teks1, .teks2, .teks3, .teks4, .teks5{
+    margin-top: -60px;
+    padding-left: 90px;
+
+}
+
+.teks6, .teks7{
+    margin-top: -55px;
+    padding-left: 250px;
+
+}
+
+.imgkotak4{
+    margin-top: 10px;
+}
+
+
+=======
 * {
   padding: 0;
   margin: 0;
@@ -546,3 +839,4 @@
     align-items: center;
   }
 }/*# sourceMappingURL=style.css.map */
+
