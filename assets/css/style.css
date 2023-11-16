@@ -1,7 +1,7 @@
 body {
   font-family: "Nunito", sans-serif;
   padding: 50px 100px;
-  
+  color: #234cad;
   max-width: 1440px;
   margin: auto;
   box-sizing: border-box;
@@ -729,6 +729,18 @@ footer .brand {
     flex-direction: column;
   }
 }
+@media screen and (max-width: 800px) {
+  body {
+    padding: 20px 20px;
+  }
+  .contact {
+    padding: 30px;
+  }
+  footer .brand {
+    margin-right: 0 !important;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .card-parent-1 .child-card:nth-child(1) .image-profile {
     width: 65px !important;
@@ -758,7 +770,7 @@ footer .brand {
     height: 55px !important;
   }
   .card-parent-1 .child-card:nth-child(2) .image-profile h4 {
-    font-size: 18px;
+    font-size: 20px;
   }
   .card-parent-1 .child-card:nth-child(2) .image-profile .notif {
     background-color: #234CAD;
@@ -767,7 +779,7 @@ footer .brand {
     padding: 7px !important;
   }
   .card-parent-1 .child-card:nth-child(2) h5 {
-    font-size: 16px !important;
+    font-size: 18px !important;
   }
   .card-parent-1 .child-card:nth-child(2) p {
     font-size: 14px;
@@ -781,7 +793,7 @@ footer .brand {
     height: 45px !important;
   }
   .card-parent-1 .child-card:nth-child(3) .image-profile h4 {
-    font-size: 12px;
+    font-size: 120px;
   }
   .card-parent-1 .child-card:nth-child(3) .image-profile .notif {
     background-color: #234CAD;
@@ -790,7 +802,7 @@ footer .brand {
     padding: 6px !important;
   }
   .card-parent-1 .child-card:nth-child(3) h5 {
-    font-size: 10px !important;
+    font-size: 18px !important;
   }
   .card-parent-1 .child-card:nth-child(3) p {
     font-size: 12px;
@@ -832,10 +844,10 @@ footer .brand {
     padding: 8px !important;
   }
   .product-features-2 .card-parent-2 .card-section-2 .card-1 .card-name .image-profile-name h5 {
-    font-size: 14px !important;
+    font-size: 18px !important;
   }
   .product-features-2 .card-parent-2 .card-section-2 .card-1 .card-name h5 {
-    font-size: 14px !important;
+    font-size: 18px !important;
   }
   .product-features-2 .card-parent-2 .card-section-2 .card-1 .card-name p {
     font-size: 10px !important;
@@ -849,7 +861,7 @@ footer .brand {
     background-size: 300px;
   }
   .product-features-2 .card-parent-2 .card-section-2 .card-2 .card-sales h5 {
-    font-size: 14px !important;
+    font-size: 18px !important;
   }
   .product-features-2 .card-parent-2 .card-section-2 .card-2 .card-sales p {
     font-size: 10px !important;
@@ -860,7 +872,7 @@ footer .brand {
     background-size: 300px;
   }
   .product-features-2 .card-parent-2 .card-section-2 .card-2 .card-upload h5 {
-    font-size: 14px !important;
+    font-size: 18px !important;
   }
   .product-features-2 .card-parent-2 .card-section-2 .card-2 .card-upload p {
     font-size: 10px !important;
@@ -884,7 +896,7 @@ footer .brand {
     padding: 8px !important;
   }
   .product-features-2 .card-parent-2 .card-section-2 .card-3 .card-name-2 .image-profile-name-2 h5 {
-    font-size: 14px !important;
+    font-size: 18px !important;
   }
   .product-features-2 .card-parent-2 .card-section-2 .card-3 .card-name-2 h5 {
     font-size: 14px !important;
@@ -900,4 +912,22 @@ footer .brand {
     justify-content: center;
     align-items: center;
   }
-}/*# sourceMappingURL=style.css.map */
+
+body {
+    padding: 10px 10px;
+  }
+  h2 {
+    font-size: 32px !important;
+  }
+  h5 {
+    font-size: 18px !important;
+  }
+  footer a {
+    font-size: 12px;
+  }
+  footer .brand {
+    margin-right: 0 !important;
+  }
+}
+
+
