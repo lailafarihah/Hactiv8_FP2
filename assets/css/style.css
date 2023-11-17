@@ -875,8 +875,8 @@ li{
 .card:hover .btn-outline-primary {
     border-radius: 37.5px;
     background: #FFF;
-    width: 274px;
-    height: 75px;
+    width: 180px;
+    height: 55px;
     justify-content: center;
 }
 
