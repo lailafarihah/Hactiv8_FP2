@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
@@ -19,8 +20,8 @@
   <section id="Header">
     <nav class="navbar navbar-expand-lg ">
       <div class="content-start">
-        <div class="togle">
-          
+        <div class="togle d-flex justify-content-center align-items-center">
+          <h2 class="mt-2">=</h2> 
         </div>
       </div>
       
@@ -42,10 +43,14 @@
             <li class="nav-item">
               <a class="nav-link" href="#Contact"><p><b>Contact</b></p></a>
             </li>
+            <li class="button-in-burger d-md-none">
+              <a href=""><button type="button" class="btn btn-outline-primary btn-sm rounded-pill" id="login">Login</button></a>
+              <a href=""><button type="button" class="btn btn-outline-primary btn-sm rounded-pill" id="sign">Sign Up</button></a>
+            </li>
           </ul>
           <ul class="navbar-nav me-2 mb-1"></ul>
         </div>
-        <div class="content-end">
+        <div class="content-end button-outside-burger">
           <a href=""><button type="button" class="btn btn-outline-primary btn-sm rounded-pill" id="login">Login</button></a>
           <a href=""><button type="button" class="btn btn-outline-primary btn-sm rounded-pill" id="sign">Sign Up</button></a>
         </div>
@@ -53,10 +58,11 @@
     </nav>
   </section>
 
+  
   <section id="Banner">
-    <div class="jumbotron">
-      <div class="row">
-        <div class="col-5">
+    <div class="jumbotron-section">
+      <div class="jumbo-body d-flex flex-wrap justify-content-center align-items-center">
+        <div class="right-sect">
           <div class="container-text-left" id="kolom1">
             <h1><b>Business</b></h1>
             <h1><b>Communication</b></h1>
@@ -65,7 +71,7 @@
             <button type="button" class="btn btn-outline-primary">Get the app</button>
           </div>
         </div>
-        <div class="col-7">
+        <div class="left-sect">
           <div class="kotak1">
             <img src="assets/img/5.png" alt="" width="25px" height="40px">
           </div>
@@ -124,8 +130,8 @@
   </section>
   
   <section id="Product_Features">
-    <div class="container">
-      <div class="product-features ">
+    <!-- <div class="container"> -->
+      <div class="product-features container-fluid">
         <div class="card card-parent-1 border border-0">
             <div class="child-card d-flex justify-content-evenly align-items-center">
                 <div class="image-profile d-flex justify-content-center align-items-center position-relative">
@@ -178,15 +184,15 @@
         </div>
         <div class="text">
             <header>
-                <h1><b>Use our app to send messages to your team</b></h1>
+                <h1 class="fw-bold">Use our app to send messages to your team</h1>
             </header>
             <section>
                 <p>We offer really easy communications for all businesses from small to large.</p>
                 <button type="button" class="btn btn-outline-primary">Get the app</button>
             </section>
         </div>
-    </div>
-    </div>
+    <!-- </div> -->
+      </div>
   
     <div class="product-features-2 container-fluid d-flex justify-content-center align-items-center flex-column mb-5">
         <div class="title text-center d-flex justify-content-center align-items-center flex-column">
@@ -311,12 +317,12 @@
     <div class="container-xl p-5">
         <div class="row align-content-center">
             <div class="col-lg-6 col-md-12 flex-column align-self-center p-5 text-center text-lg-start">
-              <h1><b>Increase the efficiency within your company</b></h1>
+              <h1 class="fw-bold">Increase the efficiency within your company</h1>
                 <p>Our app is the great way for you to start getting more task done</p>
                 <button type="button" class="btn btn-outline-primary">Get the app</button>
             </div>
             <div class="col-lg-6 col-md-12 flex-column align-items-center">
-                <img src="./assets/img/Card.svg" alt="About App">
+                <img src="./assets/img/Card.svg" alt="About App" class="img-about">
             </div>
         </div>
     </div>
@@ -324,7 +330,7 @@
 
   <section id="Pricing">
     <div class="container-xl p-5 text-center">
-        <h1><b>Explore Our Simple Pricing</b></h1>
+        <h1 class="fw-bold">Explore Our Simple Pricing</h1>
         <p>We offer one of the most competitive prices on the market for everyone</p>
     </div>
     <div class="container-fluid">
@@ -372,25 +378,26 @@
             </div>
         </div>
   </section>
-
-  <section id="Contact" class="contact text-center">
-    <div class="container-fluid">
-      <div class="title">
-        <h2>Sign up to our newsletter</h2>
-        <p>Receive latest news, updates, discounts and many other things every week.</p>
-      </div>
-      <div class="d-flex bg-white flex-row justify-content-end inputan">
-        <input type="email" class="form-control border-0" id="emailInput" placeholder="Enter your email address" />
-        <div class="icon text-center justify-content-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-          </svg>
+  <div class="contact-parent">
+    <section id="Contact" class="contact text-center">
+      <div class="container-fluid">
+        <div class="title">
+          <h1 class="fw-bold">Sign up to our newsletter</h1>
+          <p>Receive latest news, updates, discounts and many other things every week.</p>
+        </div>
+        <div class="d-flex bg-white flex-row justify-content-end inputan">
+          <input type="email" class="form-control border-0 shadow-none" id="emailInput" placeholder="Enter your email address" />
+          <div class="icon text-center justify-content-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
-  <footer id="Footer" class="bd-footer">
+  <footer id="Footer" class="bd-footer d-flex flex-wrap">
     <div class="container">
       <div class="row">
         <div class="col brand">
