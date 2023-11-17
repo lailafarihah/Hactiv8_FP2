@@ -6,6 +6,7 @@ body{
     font-family: 'Varela Round', sans-serif;
 }
 
+
 h1{
     font-size: 50px;
     color: #234CAD;
@@ -41,6 +42,9 @@ p{
     margin-bottom: 70px;
     margin-left: 60px;
     margin-right: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #Header{
@@ -80,18 +84,19 @@ li{
     background-color: #F2F6FF;
 }
 
-.jumbotron{
+.jumbotron-section{
     margin-top: 30px;
     border-radius: 30px;
-    width: 100%;
+    width: 140%;
     height: 520px;
     background-color: #F2F6FF;
 }
 
 #kolom1{
-    padding-left: 70px;
+    /* padding-left: 70px;
     padding-top: 90px;
-    padding-bottom: 45px;
+    padding-bottom: 45px; */
+    padding: 80px 0 50px 0 ;
 }
 
 .btn-outline-primary {
@@ -237,7 +242,7 @@ li{
 
 .product-features {
     display: flex;
-    width: 1015px;
+    width: auto;
     height: auto;
     justify-content: space-evenly;
     align-items: center;
@@ -556,6 +561,11 @@ li{
   }
   
   @media screen and (max-width: 1128px) {
+    .product-features {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
     .card-parent-2 {
       height: 650px !important;
     }
@@ -587,6 +597,9 @@ li{
     }
   }
   @media screen and (max-width: 550px) {
+    .product-features .card-parent-1 {
+      width: 100%;
+    }
     .card-parent-1 .child-card:nth-child(1) .image-profile {
       width: 65px !important;
       height: 65px !important;
@@ -815,6 +828,10 @@ li{
     background: #F2F6FF !important
 }
 
+.img-about{
+  width: 100%;
+}
+
 
 .card3 {
     background-color: #F2F6FF;
@@ -865,7 +882,14 @@ li{
 
 /* Contact & Footer */
 
+.contact-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #Contact {
+    width: 100%;
     margin-left: 60px;
     margin-right: 60px;
     margin-top: 75px;
@@ -914,6 +938,7 @@ li{
   padding: 10px;
   background-color: #234cad;
   border-radius: 15px;
+  color: white;
 }
 
 ::placeholder {
@@ -942,3 +967,251 @@ footer .brand {
   margin-right: 80px;
 }
 
+/* all media */
+@media screen and (max-width: 1300px){
+  .jumbotron-section{
+    height: auto;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+  /* .jumbotron .jumbo-body{
+    width: 100%;
+    display: grid !important;
+    place-items: center;
+  } */
+  #kolom1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* .kotak1{
+    margin: auto;
+  }
+  .kotak2{
+    margin-left: 100px;
+  }
+  .kotak3{
+    margin-left: 30rem;
+  }
+  .kotak4{
+    margin-left: 80px;
+  }
+  .kotak5{
+    margin-left: 23rem;
+  } */
+}
+
+@media screen and (max-width: 1275px){
+  .kotak1{
+    margin: auto;
+  }
+  .kotak2{
+    margin-left: 100px;
+  }
+  .kotak3{
+    margin-left: 30rem;
+  }
+  .kotak4{
+    margin-left: 80px;
+  }
+  .kotak5{
+    margin-left: 23rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .button-outside-burger{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 990px){
+  .content-start{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  /* .jumbotron .jumbo-body{
+    justify-content: start !important;
+  } */
+  .right-sect h1{
+    font-size: 40px;
+  }
+  .right-sect p{
+    font-size: 14px;
+  }
+  .product-features .text h1{
+    font-size: 40px;
+  }
+  .product-features p{
+    font-size: 14px;
+  }
+  .product-features-2 .title h1{
+    font-size: 40px;
+  }
+  .product-features-2 p{
+    font-size: 14px;
+  }
+  #About div div div h1{
+    font-size: 40px;
+  }
+  #About div div div p{
+    font-size: 14px;
+  }
+  #Pricing div h1{
+    font-size: 40px;
+  }
+  #Pricing div p{
+    font-size: 14px;
+  }
+  #Contact div h1{
+    font-size: 40px;
+  }
+  #Contact div p{
+    font-size: 14px;
+  }
+
+  .kotak2{
+    padding-top: 20px;
+    padding-left: 22px;
+    width: 350px;
+    height: 90px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .kotak3{
+    padding-top: 25px;
+    padding-left: 25px;
+    width: 110px;
+    height: 130px;
+    margin-top: -155px;
+    margin-bottom: 25px;
+    margin-left: 435px;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .kotak4{
+    padding-top: 20px;
+    padding-left: 22px;
+    width: 250px;
+    height: 140px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .kotak5{
+    padding-top: 20px;
+    padding-left: 22px;
+    width: 350px;
+    height: 90px;
+    margin-top: -165px;
+    margin-bottom: 25px;
+    margin-left: 315px;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .kotak6{
+    padding-top: 20px;
+    padding-left: 22px;
+    width: 350px;
+    height: 90px;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .kotak7{
+  margin: 0rem 0 0 10rem ;
+  }
+
+  .kotak8{
+    margin: -12rem 0 0 26rem ;
+  }
+  
+}
+
+@media screen and (max-width: 810px) {
+  /* .jumbotron{
+    height: 1300px;
+  } */
+  /* .jumbotron .jumbo-body{
+    justify-content: center !important;
+  } */
+  .kotak4{
+    margin: -10.5rem 0 0 10rem ;
+  }
+  .kotak3{
+    margin: 35px;
+  }
+  .kotak5{
+    margin: 35px;
+  }
+  .kotak6{
+    margin: 35px;
+  }
+  .kotak7{
+    margin: 35px;
+  }
+  .kotak8{
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .product-features{
+    display: grid;
+    place-items: center;
+  }
+  .right-sect h1{
+    font-size: 30px;
+  }
+  .right-sect p{
+    font-size: 12px;
+  }
+  .product-features .text h1{
+    font-size: 30px;
+  }
+  .product-features p{
+    font-size: 12px;
+  }
+  .product-features-2 .title h1{
+    font-size: 30px;
+  }
+  .product-features-2 p{
+    font-size: 12px;
+  }
+  #About div div div h1{
+    font-size: 30px;
+  }
+  #About div div div p{
+    font-size: 12px;
+  }
+  #Pricing div h1{
+    font-size: 30px;
+  }
+  #Pricing div p{
+    font-size: 12px;
+  }
+  #Contact div h1{
+    font-size: 30px;
+  }
+  #Contact div p{
+    font-size: 12px;
+  }
+  /* .jumbotron .jumbo-body{
+    justify-content: start !important;
+  } */
+}
