@@ -1,10 +1,52 @@
-body {
-  font-family: "Nunito", sans-serif;
-  padding: 50px 100px;
-  color: #234cad;
-  max-width: 1440px;
-  margin: auto;
-  box-sizing: border-box;
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    color: #234CAD;
+}
+
+h2{
+    color: #234CAD;
+}
+
+h3{
+    font-size: 22px;
+    color: #234CAD;
+}
+
+h4{
+    font-size: 10px;
+    color: #234CAD;
+}
+
+h5{
+    color: #234CAD;
+
+}
+
+p{
+    font-size: 16px;
+    color: #234CAD;
+}
+
+/* Contact & Footer */
+
+#Contact {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 75px;
+}
+
+#Footer{
+    margin-left: 60px;
+    margin-right: 60px;
+
 }
 
 .contact {
@@ -47,7 +89,7 @@ body {
 }
 
 ::placeholder {
-  color: #234cad; /* Ganti #your-color dengan kode warna yang diinginkan */
+  color: #234cad; 
 }
 
 footer {
@@ -59,43 +101,16 @@ footer a {
 }
 
 footer h5 {
+  color: #234cad;
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
 footer .container {
-  max-width: 941px;
+  width: 941px;
 }
-/* footer .brand {
+footer .brand {
   margin-right: 80px;
-} */
-@media screen and (max-width: 800px) {
-  body {
-    padding: 20px 20px;
-  }
-  .contact {
-    padding: 30px;
-  }
-  footer .brand {
-    margin-right: 0 !important;
-  }
 }
 
-@media screen and (max-width: 550px) {
-  body {
-    padding: 10px 10px;
-  }
-  h2 {
-    font-size: 32px !important;
-  }
-  h5 {
-    font-size: 18px !important;
-  }
-  footer a {
-    font-size: 12px;
-  }
-  footer .brand {
-    margin-right: 0 !important;
-  }
-}
