@@ -1,10 +1,9 @@
 body{
     background-color: white;
-    padding-top: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
     font-family: 'Varela Round', sans-serif;
-
 }
 
 h1{
@@ -14,13 +13,11 @@ h1{
 
 h2{
     color: #234CAD;
-
 }
 
 h3{
     font-size: 22px;
     color: #234CAD;
-
 }
 
 h4{
@@ -28,15 +25,33 @@ h4{
     color: #234CAD;
 }
 
+h5{
+    color: #234CAD;
+
+}
+
 p{
     font-size: 16px;
     color: #234CAD;
 }
 
+/* Header & Banner */
+
+#Banner{
+    margin-bottom: 70px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#Header{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
 li{
     margin-right: 30px;
 }
-
 
 #login {
     margin-right: 15px;
@@ -45,19 +60,17 @@ li{
     padding: 10px 15px;
     border-radius: 25px;
     background-color: white;
-    color: #234CAD;
-    border: 1px solid #234CAD;
-  }
+    font-size: 16px;
+}
   
-
 #sign{
+
     width: 110px;
     height: 45px;
     padding: 10px 15px;
     border-radius: 25px;
-    background-color: #F2F6FF;
-    color: #234CAD;
-    border: 1px solid #F2F6FF;
+    background-color: white;
+    font-size: 16px;
 }
     
 .togle{
@@ -81,18 +94,29 @@ li{
     padding-bottom: 45px;
 }
 
-
-#get{
-    margin-top: 15px;
+.btn-outline-primary {
+    border-radius: 37.5px;
+    background: #F2F6FF;
+    border: 0px;
+    color: #234CAD;
+    font-size: 25px;
+    font-weight: 700;
     width: 180px;
     height: 55px;
-    padding: 10px 15px;
-    border-radius: 25px;
-    background-color: white;
+    justify-content: center;
+    border: 3px solid #234CAD !important
+}
+
+.btn-outline-primary:hover {
+    background: #FFF;
     color: #234CAD;
-    border: 1px solid #234CAD;
+    border: 3px solid #234CAD !important
+}
 
-
+.btn-outline-primary:active {
+    background-color: #234CAD !important;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 .kotak1{
@@ -198,16 +222,13 @@ li{
 .teks1, .teks2, .teks3, .teks4, .teks5{
     margin-top: -60px;
     padding-left: 90px;
-
 }
 
 .teks6, .teks7{
     margin-top: -55px;
     padding-left: 250px;
-
 }
 
 .imgkotak4{
     margin-top: 10px;
 }
-
